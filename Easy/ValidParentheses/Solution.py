@@ -1,15 +1,10 @@
 class Solution(object):
     def isValid(self, s):
-        stack = []
-        brackets = {"(" : ")", "{" : "}", "[" : "]"}
-        for c in s:
-            if brackets.__contains__(c):
-                stack.append(c)
-            elif len(stack) == 0 or brackets[stack[-1]] != c:
-                return False
-            else:
-                stack.pop()
-        return len(stack) == 0
+        while "()" in s or "{}" in s or "[]" in s:
+            s = s.replace("()", "")
+            s = s.replace("{}", "")
+            s = s.replace("[]", "")
+        return 0 == len(s)
 
 
 if __name__ == "__main__":
