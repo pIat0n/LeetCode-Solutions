@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def longestCommonPrefix(strs):
         for i, c in enumerate(min(strs)):
             if c != max(strs)[i]:
