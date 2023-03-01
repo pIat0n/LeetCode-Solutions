@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def searchInsert(nums, target):
         lo = 0
         hi = len(nums)
