@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def removeDuplicates(nums):
         nums[:] = sorted(set(nums))
         return len(nums)
