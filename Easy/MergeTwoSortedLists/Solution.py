@@ -1,10 +1,10 @@
-class ListNode(object):
+class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
 
-class Solution(object):
+class Solution:
     def mergeTwoLists(self, list1, list2):
         if list1 == None: return list2
         if list2 == None: return list1
