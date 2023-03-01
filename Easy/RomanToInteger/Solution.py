@@ -1,5 +1,5 @@
 class Solution(object):
-    def romanToInt(self, s):
+    def romanToInt(s):
         roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
         count = 0
         for i in range(len(s) - 1):
@@ -12,8 +12,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    solution = Solution()
     print("Example 1: {}\nExample 2: {}\nExample 3: {}".format(
-        solution.romanToInt("III"),
-        solution.romanToInt("LVIII"),
-        solution.romanToInt("MCMXCIV")))
+        Solution.romanToInt("III"),
+        Solution.romanToInt("LVIII"),
+        Solution.romanToInt("MCMXCIV")))
