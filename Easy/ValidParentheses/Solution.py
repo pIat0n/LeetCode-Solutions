@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def isValid(s):
         while "()" in s or "{}" in s or "[]" in s:
             s = s.replace("()", "")
