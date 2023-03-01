@@ -1,11 +1,10 @@
 class Solution(object):
-    def isPalindrome(self, x):
+    def isPalindrome(x):
         return str(x) == str(x)[::-1]
 
 
 if __name__ == "__main__":
-    solution = Solution()
     print("Example 1: {}\nExample 2: {}\nExample 3: {}".format(
-        solution.isPalindrome(121),
-        solution.isPalindrome(-121),
-        solution.isPalindrome(10)))
+        Solution.isPalindrome(121),
+        Solution.isPalindrome(-121),
+        Solution.isPalindrome(10)))
