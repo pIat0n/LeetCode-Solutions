@@ -1,5 +1,5 @@
 class Solution(object):
-    def isValid(self, s):
+    def isValid(s):
         while "()" in s or "{}" in s or "[]" in s:
             s = s.replace("()", "")
             s = s.replace("{}", "")
@@ -8,8 +8,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    solution = Solution()
     print("Example 1: {}\nExample 2: {}\nExample 3: {}".format(
-        solution.isValid("()"),
-        solution.isValid("()[]{}"),
-        solution.isValid("(]")))
+        Solution.isValid("()"),
+        Solution.isValid("()[]{}"),
+        Solution.isValid("(]")))
