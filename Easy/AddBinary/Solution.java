@@ -1,5 +1,4 @@
 package Easy.AddBinary;
-
 import java.math.BigInteger;
 
 public class Solution {
