@@ -1,13 +1,15 @@
 package Easy.ClimbingStairs;
-import java.util.Stack;
 
 public class Solution {
     public static int climbStairs(int n){
-        if (n <= 3) return n;
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i <= 3; i++) stack.add(i);
-        for (int i = 4; i <= n; i++) stack.add(stack.get(i - 1) + stack.get(i - 2));
-        return stack.pop(); 
+        int fib1 = 1;
+        int fib2 = fib1;
+        for (int i = 2; i <= n; i++){
+            int temp = fib1;
+            fib1 = fib2;
+            fib2 += temp;
+        }
+        return fib2;
     }
 
     public static void main(String[] args){
