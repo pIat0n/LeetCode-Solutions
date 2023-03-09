@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SolutionTest{
 
     @Test
-    public void addBinaryTest1(){
+    public void addBinaryTest(){
         assertEquals("100", new Solution().addBinary("11", "1"));
     }
 
