@@ -12,7 +12,6 @@ public class Solution{
         return new int[]{};
     }
 
-
     public static void main(String[] args){
         System.out.printf("Example 1: %s\nExample 2: %s\nExample 3: %s",
             Arrays.toString(Solution.twoSum(new int[]{2, 7, 11, 15}, 9)),
