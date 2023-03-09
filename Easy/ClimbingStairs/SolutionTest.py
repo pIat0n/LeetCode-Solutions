@@ -2,15 +2,15 @@ from unittest import TestCase, main
 from Solution import Solution
 
 class SolutionTest(TestCase):
-    def test_climbStairsTest(self):
+    def test_climbStairs(self):
         self.assertEquals(2, Solution.climbStairs(2))
 
 
-    def test_climbStairsTest2(self):
+    def test_climbStairs2(self):
         self.assertEquals(3, Solution.climbStairs(3))
 
 
-    def test_climbStairsTest3(self):
+    def test_climbStairs3(self):
         self.assertEquals(1134903170, Solution.climbStairs(44))
 
 
