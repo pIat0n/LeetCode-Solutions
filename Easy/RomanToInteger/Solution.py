@@ -8,11 +8,3 @@ class Solution:
             else:
                 count += roman[s[i]]
         return count + roman[s[-1]]
-        
-
-
-if __name__ == "__main__":
-    print("Example 1: {}\nExample 2: {}\nExample 3: {}".format(
-        Solution.romanToInt("III"),
-        Solution.romanToInt("LVIII"),
-        Solution.romanToInt("MCMXCIV")))
