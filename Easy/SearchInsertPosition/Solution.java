@@ -1,7 +1,7 @@
 package Easy.SearchInsertPosition;
 
 public class Solution{
-    public static int searchInsert(int[] nums, int target){
+    public int searchInsert(int[] nums, int target){
         int lo = 0;
         int hi = nums.length;
         while(lo < hi){

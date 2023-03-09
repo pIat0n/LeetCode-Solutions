@@ -1,5 +1,5 @@
 class Solution:
-    def searchInsert(nums, target):
+    def searchInsert(self, nums, target):
         lo = 0
         hi = len(nums)
         while lo < hi:
