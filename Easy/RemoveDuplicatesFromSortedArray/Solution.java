@@ -1,4 +1,5 @@
 package Easy.RemoveDuplicatesFromSortedArray;
+
 import java.util.LinkedHashSet;
 
 public class Solution{
