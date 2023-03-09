@@ -1,3 +1,3 @@
 class Solution:
-    def strStr(haystack, needle):
+    def strStr(self, haystack, needle):
         return haystack.find(needle)
