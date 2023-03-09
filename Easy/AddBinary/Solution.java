@@ -7,7 +7,7 @@ public class Solution {
         return new BigInteger(a, 2).add(new BigInteger(b, 2)).toString(2);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.printf("Example 1: %s\nExample 2: %s",
             Solution.addBinary("11", "1"),
             Solution.addBinary("1010", "1011"));
