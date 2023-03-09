@@ -1,4 +1,5 @@
 package Easy.PlusOne;
+
 import java.util.Arrays;
 
 public class Solution{
