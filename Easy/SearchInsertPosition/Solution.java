@@ -11,11 +11,4 @@ public class Solution{
         }
         return lo;
     }
-
-    public static void main(String[] args){
-        System.out.printf("Example 1: %d\nExample 2: %d\nExample 3: %d",
-            Solution.searchInsert(new int[]{1, 3, 5, 6}, 5),
-            Solution.searchInsert(new int[]{1, 3, 5, 6}, 2),
-            Solution.searchInsert(new int[]{1, 3, 5, 6}, 7));
-    }
 }
