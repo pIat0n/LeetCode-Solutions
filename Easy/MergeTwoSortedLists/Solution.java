@@ -12,8 +12,6 @@ public class Solution{
             return list2;
         }
     }
-
-    public static void main(String[] args){}
 }
 
 class ListNode{
