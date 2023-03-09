@@ -2,11 +2,11 @@ from unittest import TestCase, main
 from Solution import Solution
 
 class SolutionTest(TestCase):
-    def test_strStrTest(self):
+    def test_strStr(self):
         self.assertEquals(0, Solution.strStr("sadbutsad", "sad"))
 
 
-    def test_strStrTest2(self):
+    def test_strStr2(self):
         self.assertEquals(-1, Solution.strStr("leetcode", "leeto"))
 
 
