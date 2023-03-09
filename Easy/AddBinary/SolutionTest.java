@@ -1,6 +1,6 @@
 package Easy.AddBinary;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SolutionTest{
 
@@ -10,7 +10,7 @@ public class SolutionTest{
     }
 
     @Test
-    public void addBinarySecondTest(){
+    public void addBinaryTest2(){
         assertEquals("10101", Solution.addBinary("1010", "1011"));
     }
 }
