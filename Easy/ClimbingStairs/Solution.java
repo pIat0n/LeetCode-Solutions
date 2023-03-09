@@ -1,7 +1,7 @@
 package Easy.ClimbingStairs;
 
 public class Solution{
-    public static int climbStairs(int n){
+    public int climbStairs(int n){
         int fib1 = 1;
         int fib2 = 1;
         for (int i = 2; i <= n; i++){
