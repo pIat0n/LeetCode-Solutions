@@ -1,3 +1,3 @@
 class Solution:
-    def mySqrt(x):
+    def mySqrt(self, x):
         return int(x ** 0.5)
