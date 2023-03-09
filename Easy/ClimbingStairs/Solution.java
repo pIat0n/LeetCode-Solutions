@@ -11,10 +11,4 @@ public class Solution{
         }
         return fib2;
     }
-
-    public static void main(String[] args){
-        System.out.printf("Example 1: %d\nExample 2: %d",
-            Solution.climbStairs(2),
-            Solution.climbStairs(3));
-    }
 }
