@@ -11,4 +11,10 @@ public class Solution{
         }
         return fib2;
     }
+
+    public static void main(String[] args){
+        System.out.printf("Example 1: %d\nExample 2: %d",
+            new Solution().climbStairs(2),
+            new Solution().climbStairs(3));
+    }
 }
