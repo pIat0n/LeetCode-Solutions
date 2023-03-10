@@ -9,4 +9,11 @@ public class Solution{
         }
         return s.isEmpty();
     }
+
+    public static void main(String[] args){
+        System.out.printf("Example 1: %b\nExample 2: %b\nExample 3: %b",
+            new Solution().isValid("()"),
+            new Solution().isValid("()[]{}"),
+            new Solution().isValid("(]")); 
+    }
 }
