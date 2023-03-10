@@ -9,4 +9,10 @@ public class Solution{
         }
         return strs[0];
     }
+
+    public static void main(String[] args){
+        System.out.printf("Example 1: %s\nExample 2: %s",
+            new Solution().longestCommonPrefix(new String[]{"flower", "flow", "flight"}),
+            new Solution().longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
+    }
 }
