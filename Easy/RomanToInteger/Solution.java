@@ -13,4 +13,11 @@ public class Solution{
         }
         return count + roman.get(s.charAt(s.length() - 1));
     }
+
+    public static void main(String[] args){
+        System.out.printf("Example 1: %d\nExample 2: %d\nExample 3: %d",
+            new Solution().romanToInt("III"),
+            new Solution().romanToInt("LVIII"),
+            new Solution().romanToInt("MCMXCIV"));
+    }
 }
